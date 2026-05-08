@@ -1,9 +1,5 @@
-To "hide" properties and methods in modern JavaScript (ES2022+), we use Private Class Fields. By prefixing a name with a hash #, you make it inaccessible from outside the class, effectively encapsulating the internal logic.
 
-Here is how you would refactor your TaxCalculator class to hide the rate and the specific calculation methods:
 
-Implementation in index.js
-JavaScript
 class TaxCalculator {
   // Define private fields and methods using the # prefix
   #rate = 15;
